@@ -3,7 +3,7 @@ var cost = window.prompt("Please Enter the current cost of a gallon of gasoline 
 function calculate(miles,cost,mpg) {
   var totalcost=(miles/mpg)*cost
 
-  document.write("To drive a car with an MPG rating of $"+mpg+" for " +miles+ " miles at $"+cost+" per gallon would cost $" + totalcost+"<br>");
+  document.write("To drive a car with an MPG rating of "+mpg+" for " +miles+ " miles at $"+cost+" per gallon would cost $" + totalcost+"<br>");
 }
   
 calculate(miles,cost,12)
